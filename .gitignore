@@ -1,9 +1,19 @@
-# Unfinished exercices
-**/doing
+# Unfinished exercises
+/problems/unfinished/**
 
-# C/C++ executables
-**/*.exe
-**/*.o
-
-# Python
+# Python cache
 **/__pycache__
+
+# VS Code workspace settings
+/.vscode
+
+# Every file extension inside /done but .c, .cpp, .py and .sql
+/done/**/*
+!/done/**/
+!/done/**/*.c
+!/done/**/*.py
+!/done/**/*.cpp
+!/done/**/*.sql
+
+# Code Runner extension tmp file
+/**/tempCodeRunnerFile.cpp
